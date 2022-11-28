@@ -1,0 +1,153 @@
+@font-face {
+   font-family: 'Raleway';
+   src: url(./../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   src: url(./../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+   font-family: 'Raleway';
+}
+
+.tabsmainwrapper {
+   width: 1170px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+input {
+   display: none;
+}
+
+label {
+   font-family: 'Open Sans';
+   display: inline-block;
+   width: 200px;
+   height: 35px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 35px;
+   text-align: center;
+   cursor: pointer;
+}
+
+input[type="radio"]:checked+label {
+   border: 1px solid #C6CBCD;
+   border-radius: 10px 10px 0px 0px;
+   border-bottom: none;
+   margin-bottom: -1px;
+   background-color: #fffffff7;
+}
+
+.tabsmainwrapper>.content {
+   display: none;
+}
+
+#tabsbtn1:checked~#content1,
+#tabsbtn2:checked~#content2,
+#tabsbtn3:checked~#content3 {
+   display: block;
+}
+
+.content {
+   box-sizing: border-box;
+   width: 1170px;
+   height: 501px;
+   border: 1px solid #C6CBCD;
+   margin-top: -1px;
+}
+
+.left {
+   margin: 0px 30px 54px 100px;
+   width: 570px;
+   height: 446px;
+   float: left;
+}
+
+.left__h3 {
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+.left__p1 {
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 60px;
+   color: black;
+}
+
+.left__p2 {
+   font-weight: 400;
+   font-size: 18px;
+   margin-top: 30px;
+   margin-bottom: 27px;
+   color: black;
+}
+
+.left__btn {
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   width: 270px;
+   height: 58px;
+   text-align: center;
+   line-height: 58px;
+   color: white;
+   background-color: #EC7979;
+   border: 1px solid #EC7979;
+   margin-top: 80px;
+}
+
+img {
+   width: 468px;
+   height: 100%;
+}
+
+.mainwrapper {
+   width: 1170px;
+   padding: 0 15px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.mainwrapper__h2 {
+   font-weight: 400;
+   font-size: 36px;
+}
+
+.mainwrapper__h5 {
+   color: #86878B;
+   font-weight: 400;
+   font-size: 18px;
+   margin-bottom: 110px;
+}
+
+.mainwrapper__item {
+   width: 307px;
+   display: inline-block;
+}
+
+.box {
+   padding: 5px 10px 5px 10px;
+}
+
+.box__image {
+   width: 170px;
+   height: 170px;
+}
+
+.box__h4 {
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.box__h5 {
+   font-weight: 400;
+   font-size: 18px;
+}
