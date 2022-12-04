@@ -67,21 +67,21 @@ input[type="radio"]:checked+label {
    float: left;
 }
 
-.left__h3 {
+.left__name {
    font-family: 'Open Sans';
    font-weight: 700;
    font-size: 29px;
    margin-top: 50px;
 }
 
-.left__p1 {
+.left__firstparag {
    font-weight: 400;
    font-size: 18px;
    margin-top: 60px;
    color: black;
 }
 
-.left__p2 {
+.left__secondparag {
    font-weight: 400;
    font-size: 18px;
    margin-top: 30px;
@@ -115,12 +115,16 @@ img {
    margin: 0 auto;
 }
 
-.mainwrapper__h2 {
+.mainwrapper__section_name {
    font-weight: 400;
    font-size: 36px;
 }
 
-.mainwrapper__h5 {
+.mainwrapper__separator {
+   width: 170px;
+}
+
+.mainwrapper__text {
    color: #86878B;
    font-weight: 400;
    font-size: 18px;
@@ -141,13 +145,98 @@ img {
    height: 170px;
 }
 
-.box__h4 {
+.box__name {
    font-family: 'Open Sans';
    font-weight: 700;
    font-size: 24px;
 }
 
-.box__h5 {
+.box__text {
    font-weight: 400;
    font-size: 18px;
+}
+
+.backgroundwrapper {
+   width: 100%;
+   height: 900px;
+   padding: 15px;
+   background-color: #F5F5F5;
+   text-align: center;
+   margin: 0 auto;
+}
+
+div.sectionwrapper__list {
+   margin-top: 75px;
+}
+
+.sectionwrapper__list {
+   width: 370px;
+   display: inline-block;
+   margin-bottom: 1px;
+   margin-top: 1px;
+}
+
+div.sectionwrapper__list:nth-of-type(2) {
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.firstlist:hover,
+.secondlist:hover,
+.thirdlist:hover {
+   transform: translate(0, -30px);
+   box-shadow: 0px 5px 20px 0px black;
+   cursor: pointer;
+}
+
+.sectionwrapper__name {
+   font-weight: 400;
+   font-size: 36px;
+   margin: 70px 0px 40px 0px;
+}
+
+.sectionwrapper__line {
+   width: 170px;
+}
+
+.sectionwrapper__text {
+   font-weight: 400;
+   font-size: 18px;
+   color: #86878B;
+   margin: 40px 0px 0px 0px;
+}
+
+.name {
+   background-color: black;
+   color: white;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   height: 60px;
+   line-height: 60px;
+}
+
+.price {
+   background-color: black;
+   color: white;
+   font-weight: 700;
+   font-size: 36px;
+   height: 100px;
+   line-height: 100px;
+}
+
+.cost {
+   background-color: black;
+   color: rgba(255, 255, 255, 0.5);
+   font-weight: 400;
+   font-size: 18px;
+   height: 50px;
+   line-height: 50px;
+}
+
+.item {
+   height: 50px;
+   line-height: 50px;
+   color: #86878B;
+   background-color: white;
 }
