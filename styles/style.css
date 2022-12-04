@@ -103,8 +103,9 @@ input[type="radio"]:checked+label {
    margin-top: 80px;
 }
 
-img {
-   width: 468px;
+.content__image {
+   width: 100%;
+   max-width: 463px;
    height: 100%;
 }
 
@@ -128,12 +129,13 @@ img {
    color: #86878B;
    font-weight: 400;
    font-size: 18px;
-   margin-bottom: 110px;
+   margin-bottom: 80px;
 }
 
 .mainwrapper__item {
    width: 307px;
    display: inline-block;
+   margin-bottom: 30px;
 }
 
 .box {
