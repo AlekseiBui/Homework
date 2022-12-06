@@ -242,3 +242,98 @@ div.sectionwrapper__list:nth-of-type(2) {
    color: #86878B;
    background-color: white;
 }
+
+.revieswrapper {
+   width: 1170px;
+   height: 744px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.revieswrapper__name {
+   margin-top: 50px;
+   font-weight: 400;
+   font-size: 36px;
+}
+
+.revieswrapper__separator {
+   width: 100%;
+   max-width: 170px;
+}
+
+.revieswrapper__text {
+   margin-top: 40px;
+   font-weight: 400;
+   font-size: 18px;
+   color: #86878B;
+}
+
+.revieswrapper__first-box {
+   margin-top: 83px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.first-box__box-text {
+   width: 370px;
+   height: 180px;
+   font-weight: 400;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #E2E2E2;
+   color: #86878B;
+   border-radius: 10px;
+   position: relative;
+}
+
+.first-box__box-text::after {
+   content: '';
+   width: 0;
+   height: 0;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-top: 20px solid #E2E2E2;
+   position: absolute;
+   top: 180px;
+   left: 65px;
+}
+
+.revieswrapper__second-box {
+   margin-top: 66px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.revieswrapper__person-data {
+   width: 370px;
+   height: 90px;
+   display: flex;
+   position: relative;
+}
+
+.person-data__image {
+   width: 70px;
+   height: 70px;
+   align-self: flex-start;
+}
+
+.person-data__name {
+   position: absolute;
+   left: 100px;
+   top: -20px;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.person-data__job {
+   position: absolute;
+   left: 100px;
+   top: 40px;
+   font-weight: 400;
+   font-size: 18px;
+}
