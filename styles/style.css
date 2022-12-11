@@ -18,7 +18,7 @@ body {
    height: 1026px;
    margin: 0 auto;
    margin-bottom: 99px;
-   background-image: url('./../images/banner-background.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner-background.png');
    background-size: 100%;
    background-repeat: no-repeat;
 }
@@ -52,6 +52,9 @@ body {
    flex-direction: row;
    width: 569px;
    margin-right: 170px;
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 14px;
 }
 
 .button {
@@ -64,7 +67,6 @@ body {
 
 .info {
    height: 951px;
-   background: rgba(0, 0, 0, 0.5);
 }
 
 /* tabs css */
@@ -166,6 +168,8 @@ input[type="radio"]:checked+label {
    height: 100%;
 }
 
+/* awesome css */
+
 .mainwrapper {
    width: 1170px;
    padding: 0 15px;
@@ -215,8 +219,10 @@ input[type="radio"]:checked+label {
    font-size: 18px;
 }
 
+/* pricing css */
+
 .backgroundwrapper {
-   width: 100%;
+   width: 1510px;
    height: 900px;
    padding-top: 1px;
    background-color: #F5F5F5;
@@ -301,32 +307,33 @@ div.sectionwrapper__list:nth-of-type(2) {
    background-color: white;
 }
 
-.revieswrapper {
+/* reviews css */
+
+.reviewswrapper {
    width: 1170px;
-   height: 744px;
+   height: 680px;
    margin: 0 auto;
    text-align: center;
 }
 
-.revieswrapper__name {
+.reviewswrapper__name {
    margin-top: 50px;
    font-weight: 400;
    font-size: 36px;
 }
 
-.revieswrapper__separator {
-   width: 100%;
-   max-width: 170px;
+.reviewswrapper__separator {
+   width: 170px;
 }
 
-.revieswrapper__text {
+.reviewswrapper__text {
    margin-top: 40px;
    font-weight: 400;
    font-size: 18px;
    color: #86878B;
 }
 
-.revieswrapper__first-box {
+.reviewswrapper__first-box {
    margin-top: 83px;
    display: flex;
    flex-direction: row;
@@ -362,14 +369,14 @@ div.sectionwrapper__list:nth-of-type(2) {
    left: 65px;
 }
 
-.revieswrapper__second-box {
+.reviewswrapper__second-box {
    margin-top: 66px;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
 }
 
-.revieswrapper__person-data {
+.reviewswrapper__person-data {
    width: 370px;
    height: 90px;
    display: flex;
@@ -397,4 +404,45 @@ div.sectionwrapper__list:nth-of-type(2) {
    top: 40px;
    font-weight: 400;
    font-size: 18px;
+}
+
+/* design css */
+
+.designwrapper {
+   width: 1510px;
+   height: 442px;
+   box-sizing: border-box;
+   margin: 0 auto;
+   text-align: center;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/designe-background.png');
+   padding-top: 50px;
+   color: white;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.designwrapper__name {
+   font-weight: 400;
+   font-size: 36px;
+}
+
+.designwrapper__separator {
+   width: 170px;
+}
+
+.designwrapper__text {
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.designwrapper__button {
+   font-family: 'Open Sans';
+   font-weight: 600;
+   font-size: 18px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0);
+   width: 370px;
+   height: 58px;
+   margin-top: 73px;
+   border: 2px solid white;
 }
