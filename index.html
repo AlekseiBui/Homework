@@ -17,11 +17,11 @@
                 <img class="header__it" src="./images/IT.png">
             </div>
             <div class="header__buttons">
-                <div class="button">Features</div>
-                <div class="button">About</div>
+                <a href="#features" class="button">Features</a>
+                <a href="#about" class="button">About</a>
                 <a href="#pricing" class="button">Pricing</a>
-                <div class="button">Reviews</div>
-                <div class="button">Contact</div>
+                <a href="#reviews" class="button">Reviews</a>
+                <a href="#contact" class="button">Contact</a>
             </div>
         </header>
         <div class="info">
@@ -33,10 +33,32 @@
                 <h5 class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
                 <button class="description__button">Download</button>
             </div>
-            <div class="info__form"></div>
+            <div class="info__form">
+                <h4 class="info-form_adds">Try Your <span class="free-color">FREE</span> Trial Today</h4>
+                <input class="info-form__name" type="text" placeholder="Name">
+                <input class="info-form__mail" type="email" placeholder="Email">
+                <input class="info-form__pass" type="password" placeholder="Password">
+                <input class="info-form__btn" id="formbutton" type="button" value="Get Started">
+            </div>
         </div>
     </div>
-    <div class="tabsmainwrapper">
+    <div class="socialmainwrapper">
+        <div class="socialmainwrapper__inform">
+            <h4 class="socialmainwrapper__name">Social Media</h4>
+            <h5 class="socialmainwrapper__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean euismod bibendum laoreet.</h5>
+        </div>
+        <div class="socialmainwrapper__links">
+            <a href=""><img src="./images/socials/facebook.png"></a>
+            <a href=""><img src="./images/socials/Vector.png"></a>
+            <a href=""><img src="./images/socials/linked.png"></a>
+            <a href=""><img src="./images/socials/pint.png"></a>
+            <a href=""><img src="./images/socials/inst.png"></a>
+            <a href=""><img src="./images/socials/git.png"></a>
+            <a href=""><img src="./images/socials/wifi.png"></a>
+        </div>
+    </div>
+    <div class="tabsmainwrapper" id="features">
         <input type="radio" name="tabsbtn" id="tabsbtn1" value="" checked>
         <label for="tabsbtn1">TAB 1</label>
         <input type="radio" name="tabsbtn" id="tabsbtn2" value="">
@@ -83,7 +105,7 @@
             <img class="content__image" src="./images/Rectangle 111.png">
         </div>
     </div>
-    <div class="mainwrapper">
+    <div class="mainwrapper" id="about">
         <h2 class="mainwrapper__section_name">WHY THIS IS AWESOME</h2>
         <img class="mainwrapper__separator" src="./images/separator.png">
         <h5 class="mainwrapper__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -146,7 +168,7 @@
             </div>
         </div>
     </div>
-    <div class="reviewswrapper">
+    <div class="reviewswrapper" id="reviews">
         <h2 class="reviewswrapper__name">WHAT OUR CUSTOMERS ARE SAYING</h2>
         <img class="reviewswrapper__separator" src="./images/separator.png">
         <h5 class="reviewswrapper__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -182,7 +204,7 @@
         <h5 class="designwrapper__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         <button class="designwrapper__button">Download</button>
     </div>
-    <div class="contactwrapper">
+    <div class="contactwrapper" id="contact">
         <h2 class="contactwrapper__name">CONTACT US</h2>
         <img class="contactwrapper__separator" src="./images/separator.png">
         <h5 class="contactwrapper__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
