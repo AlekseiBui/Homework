@@ -21,6 +21,7 @@ body {
 
 .banner {
    width: 100%;
+   min-width: 1170px;
    min-height: 1026px;
    margin: 0 auto;
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner-background.png');
@@ -32,6 +33,7 @@ body {
 
 .header {
    width: 100%;
+   min-width: 1170px;
    min-height: 75px;
    background-color: black;
    display: flex;
@@ -59,6 +61,13 @@ body {
    font-family: 'Open Sans';
    font-weight: 600;
    font-size: 14px;
+}
+
+header>img {
+   width: 24px;
+   height: 18px;
+   align-self: center;
+   display: none;
 }
 
 a {
@@ -92,12 +101,6 @@ a {
 .info__description {
    width: 670px;
    margin-top: 210px;
-}
-
-@media (max-width: 1024px) {
-   .info__description {
-      width: 500px;
-   }
 }
 
 .description__ax {
@@ -203,10 +206,25 @@ a {
    background: #EC7979;
 }
 
+@media (max-width: 1024px) {
+   .header {
+      min-width: 1024px;
+   }
+
+   .banner {
+      min-width: 1024px;
+   }
+
+   .info__description {
+      width: 500px;
+   }
+}
+
 /* social css */
 
 .socialmainwrapper {
    width: 100%;
+   min-width: 1170px;
    min-height: 140px;
    background-color: #F8EFEF;
    margin: 0 auto;
@@ -247,6 +265,10 @@ a {
 }
 
 @media (max-width: 1024px) {
+   .socialmainwrapper {
+      min-width: 1024px;
+   }
+
    .socialmainwrapper__inform {
       width: 400px;
    }
@@ -431,6 +453,7 @@ input[type="radio"]:checked+label {
 
 .backgroundwrapper {
    width: 100%;
+   min-width: 1170px;
    min-height: 900px;
    padding-top: 1px;
    background-color: #F5F5F5;
@@ -523,13 +546,9 @@ div.sectionwrapper__list {
 }
 
 @media (max-width: 1024px) {
+
    .backgroundwrapper {
-      width: 100%;
-      min-height: 900px;
-      padding-top: 1px;
-      background-color: #F5F5F5;
-      text-align: center;
-      margin: 0 auto;
+      min-width: 1024px;
    }
 
    .sectionwrapper {
@@ -578,6 +597,10 @@ div.sectionwrapper__list {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+}
+
+.reviewswrapper__box>div {
+   width: 370px;
 }
 
 .reviewswrapper__first-box {
@@ -682,6 +705,7 @@ div.sectionwrapper__list {
 
 .designwrapper {
    width: 100%;
+   min-width: 1170px;
    min-height: 442px;
    box-sizing: border-box;
    margin: 0 auto;
@@ -728,6 +752,12 @@ div.sectionwrapper__list {
    background: #AB4949;
    border: 2px solid #AB4949;
    color: white;
+}
+
+@media (max-width: 1024px) {
+   .designwrapper {
+      min-width: 1024px;
+   }
 }
 
 /* contact css */
@@ -836,6 +866,7 @@ div.sectionwrapper__list {
 
 footer {
    width: 100%;
+   min-width: 1170px;
    min-height: 164px;
    box-sizing: border-box;
    background-color: black;
@@ -859,4 +890,10 @@ footer {
    font-size: 18px;
    color: rgba(255, 255, 255, 0.5);
    align-self: center;
+}
+
+@media (max-width: 1024px) {
+   footer {
+      min-width: 1024px;
+   }
 }
