@@ -226,6 +226,7 @@ a {
 
    .banner {
       min-width: 1024px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner1024.png');
    }
 
    .info__description {
@@ -238,6 +239,7 @@ a {
       width: 100%;
       min-width: 320px;
       min-height: 1005px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner320.png');
    }
 
    .header {
@@ -1211,6 +1213,7 @@ div.sectionwrapper__list {
 @media (max-width: 1024px) {
    .designwrapper {
       min-width: 1024px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/designe1024.png');
    }
 }
 
@@ -1220,6 +1223,7 @@ div.sectionwrapper__list {
       min-width: 320px;
       min-height: 358px;
       padding: 1px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/designe320.png');
    }
 
    .designwrapper__name {
