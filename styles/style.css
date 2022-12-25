@@ -63,11 +63,20 @@ body {
    font-size: 14px;
 }
 
-.header>img {
+.header>input {
+   display: none;
+}
+
+.header>label {
    width: 24px;
    height: 18px;
    align-self: center;
    display: none;
+}
+
+label>img {
+   width: 100%;
+   height: 100%;
 }
 
 a {
@@ -91,6 +100,10 @@ a {
 }
 
 /* banner-info css */
+
+.menubuttons {
+   display: none;
+}
 
 .info {
    height: 951px;
@@ -247,7 +260,7 @@ a {
       display: none;
    }
 
-   .header>img {
+   .header>label {
       display: flex;
    }
 
@@ -297,6 +310,44 @@ a {
 
    #formbutton {
       width: 100%;
+   }
+
+   label.cross {
+      display: none;
+   }
+
+   .header:has(input:checked)>label.lines {
+      display: none;
+   }
+
+   .header:has(input:checked)>label.cross {
+      display: flex;
+   }
+
+   .header {
+      position: relative;
+   }
+
+   .menubuttons {
+      position: absolute;
+      left: -320px;
+      width: 320px;
+      height: 335px;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s;
+   }
+
+   .menubuttons>a {
+      width: 100%;
+      height: 67px;
+   }
+
+   .header:has(input:checked)~.menubuttons {
+      left: 0px;
    }
 }
 
