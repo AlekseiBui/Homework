@@ -21,7 +21,6 @@ body {
 
 .banner {
    width: 100%;
-   max-width: 1170px;
    min-height: 1026px;
    margin: 0 auto;
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner-background.png');
