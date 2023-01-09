@@ -223,7 +223,7 @@ a {
    }
 
    .banner {
-      max-width: 1024px;
+      /*max-width: 1024px;*/
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner1024.png');
    }
 

@@ -1,0 +1,18 @@
+From 196e06fdde96c9d27b5ce508d5689d32baef9891 Mon Sep 17 00:00:00 2001
+From: Aleksey <buinievich00@mail.ru>
+Date: Mon, 9 Jan 2023 18:59:53 +0300
+Subject: lastlast
+
+
+diff --git a/styles/style.css b/styles/style.css
+index c4b96d4..c0bdae2 100644
+--- a/styles/style.css
++++ b/styles/style.css
+@@ -21,7 +21,6 @@ body {
+ 
+ .banner {
+    width: 100%;
+-   max-width: 1170px;
+    min-height: 1026px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../images/banner-background.png');
