@@ -32,7 +32,6 @@ body {
 
 .header {
    width: 100%;
-   max-width: 1170px;
    min-height: 75px;
    background-color: black;
    display: flex;
